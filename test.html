@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .profile-container {
+            max-width: 400px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 16px;
+            border: 3px solid #0078D4;
+        }
+        .profile-name {
+            font-size: 1.8em;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        .profile-bio {
+            color: #555;
+            margin-bottom: 16px;
+        }
+        .profile-info {
+            text-align: left;
+            margin-top: 20px;
+        }
+        .profile-info dt {
+            font-weight: bold;
+            color: #0078D4;
+        }
+        .profile-info dd {
+            margin: 0 0 12px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <img src="https://via.placeholder.com/120" alt="Profile Photo" class="profile-img">
+        <div class="profile-name">Your Name</div>
+        <div class="profile-bio">A short bio about yourself goes here. You can mention your interests, profession, or anything you'd like.</div>
+        <dl class="profile-info">
+            <dt>Email:</dt>
+            <dd>your.email@example.com</dd>
+            <dt>Location:</dt>
+            <dd>Your City, Country</dd>
+            <dt>Skills:</dt>
+            <dd>HTML, CSS, JavaScript</dd>
+        </dl>
+    </div>
+</body>
+</html>
