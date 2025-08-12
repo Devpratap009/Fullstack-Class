@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+        <label for="photo">Upload Photo:</label>
+        <input type="file" id="photo" name="photo" accept="image/*"><br><br>
+
+        <label for="skills">Skills: </label>
+        <input type="checkbox" id="skill1" name="skills" value="HTML">
+        <label for="skill1">HTML</label>
+        <input type="checkbox" id="skill2" name="skills" value="CSS">
+        <label for="skill2">CSS</label>
+        <input type="checkbox" id="skill3" name="skills" value="JavaScript">
+        <label for="skill3">JavaScript</label><br><br>
+
+        <label>Gender: </label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br><br>
+        
+        
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="" disabled selected>Select a country</option>
+            <option value="usa">India</option>
+            <option value="canada">Canada</option>
+            <option value="uk">UK</option>
+            <option value="australia">Australia</optionx>
+            <option value="other">Other</option>
+        </select><br><br>
+        
+        <label for="file">Upload File:</label>
+        <input type="file" id="file" name="file"><br><br>
+        
+        <button type="submit">Submit</button>
+
+
+
+    </form>
+</body>
+</html>
