@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chess Board</title>
+    <link rel="stylesheet" href="Chess.css" />
+  </head>
+  <body>
+    <div class="chess-board">
+      <script>
+        for (let row = 0; row < 8; row++) {
+          for (let col = 0; col < 8; col++) {
+            const div = document.createElement("div");
+            div.className =
+              "chess-box " + ((row + col) % 2 === 0 ? "light" : "dark");
+            document.querySelector(".chess-board").appendChild(div);
+          }
+        }
+      </script>
+    </div>
+  </body>
+</html>

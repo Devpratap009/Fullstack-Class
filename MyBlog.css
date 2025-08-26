@@ -5,7 +5,10 @@
     font-size: 36px;
     margin-top: 20px;
 }
-
+.navbar a:hover {
+    color: #00ff22;
+    background: #723b17
+}
 .header{
     padding: 10px;
     padding-left: 50px;
@@ -15,6 +18,7 @@
     display: flex;
     gap: 20px;
 }
+
 
 .body{
     margin: 30px;
