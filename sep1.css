@@ -1,7 +1,7 @@
 body{
     margin: 5px;
-    padding-left: 240px;
-    width: 100%;
+    padding-left: 255px;
+    width: 85%;
 }
 header{
     margin: 0px;
@@ -98,4 +98,9 @@ header{
 .Btn:active {
   transform: translate(5px,5px);
   transition-duration: .3s;
+}
+
+p::first-line {
+  color: blue;
+  text-transform: uppercase;
 }
